@@ -16,6 +16,17 @@
 
   box-sizing: content-box;
 }
+a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1em;
+}
+a:hover,
+a:active,
+a:checked,
+a:visited {
+  color: $fontColor;
+}
 
 // Set default display for the app
 body {

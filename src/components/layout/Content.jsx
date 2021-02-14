@@ -12,7 +12,7 @@ const Content = props => (
   <div className="content-wrapper">
     <Switch>
       <Route path="/home">
-        <Home />
+        <Home linkTo="/employees" />
       </Route>
       <Route path="/employees">
         <Employees />
