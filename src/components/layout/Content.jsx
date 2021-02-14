@@ -10,7 +10,6 @@ import Employees from '../../views/employees/Employees';
 
 const Content = props => (
   <div className="content-wrapper">
-    <h1>Content template</h1>
     <Switch>
       <Route path="/home">
         <Home />
