@@ -3,5 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 // styles
 import './index.scss';
+// my components
+import App from './views/App';
 
-ReactDOM.render(<div>Teste</div>, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
