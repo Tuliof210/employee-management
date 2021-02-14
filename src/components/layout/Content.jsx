@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, Redirect } from 'react-router-dom';
 // styles
 import './Content.scss';
 // my components
@@ -10,11 +10,23 @@ import Employees from '../../views/employees/Employees';
 
 const Content = props => (
   <div className="content-wrapper">
+    <h1>Content template</h1>
     <Switch>
-      <Route path="/"></Route>
-      <Route path="/employees"></Route>
-      <Route path="/register"></Route>
-      <Route path="/edit"></Route>
+      <Route path="/home">
+        <Home />
+      </Route>
+      <Route path="/employees">
+        <Employees />
+      </Route>
+      <Route path="/register">
+        <Register />
+      </Route>
+      <Route path="/edit">
+        <Edit />
+      </Route>
+      <Route path="*" exact={true}>
+        <Redirect to="/home" />
+      </Route>
     </Switch>
   </div>
 );
