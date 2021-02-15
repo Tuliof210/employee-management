@@ -1,0 +1,23 @@
+// Colors in the System;
+$fontColor: #333;
+$BG-color: #f0f0f0;
+$gray-01: #aaa;
+$btn-color: #6e8bac;
+$btn-active-color: #4d6076;
+
+// Gradient colors
+$GColor-01: #b3c3c7;
+$GColor-02: #2c3e50;
+
+// Shadows
+$shadow-01: 0px 1px 5px $fontColor;
+$shadow-02: 0px 1px 3px $gray-01;
+
+// Buttons
+.default-btn {
+  padding: 5px 10px;
+  border-radius: 10px;
+  outline: none;
+  box-shadow: $shadow-02;
+  cursor: pointer;
+}
