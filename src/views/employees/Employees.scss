@@ -1,0 +1,21 @@
+@import '../../assets/styles/styles.scss';
+
+.employees-wrapper {
+  //width: 40vw;
+  //width: 90%;
+  min-height: 50vh;
+  position: relative;
+
+  //   display: flex;
+  //   justify-content: center;
+  //   text-align: center;
+
+  border-radius: 10px;
+
+  background-color: $BG-color;
+  box-shadow: $shadow-01;
+}
+
+.list-data {
+  margin: auto;
+}
