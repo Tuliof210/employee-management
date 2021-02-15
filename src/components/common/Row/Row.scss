@@ -1,0 +1,24 @@
+@import '../../../assets/styles/styles.scss';
+
+.row-card {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 95vw;
+  margin: 15px 10px;
+  background-color: #cacaca;
+}
+
+.data-container {
+  width: 10vw;
+  text-align: left;
+  display: block;
+}
+
+.data-container label {
+  font-size: 0.5em;
+}
+.data-container p {
+  font-size: 0.7em;
+}
